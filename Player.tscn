@@ -22,5 +22,3 @@ shape = SubResource( 1 )
 position = Vector2( -4.61462, 2.15674 )
 current = true
 process_mode = 0
-drag_margin_h_enabled = false
-drag_margin_v_enabled = false

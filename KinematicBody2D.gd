@@ -6,15 +6,9 @@ var velocity = Vector2()
 
 func get_input():
 	velocity = Vector2()
-	if Input.is_action_pressed('right'):
-		velocity.x += 1
-	if Input.is_action_pressed('left'):
-		velocity.x -= 1
-	if Input.is_action_pressed('down'):
-		velocity.y += 1
-	if Input.is_action_pressed('up'):
-		velocity.y -= 1
-	velocity = velocity.normalized() * speed
+	velocity.x = Input.get_action_strength("right") - Input.get_action_strength("left")	
+	velocity.y = Input.get_action_strength("down") - Input.get_action_strength("up")
+	velocity *= speed
 
 # Called when the node enters the scene tree for the first time.
 func _physics_process(delta):
