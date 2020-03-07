@@ -1,7 +1,7 @@
 [gd_scene load_steps=4 format=2]
 
-[ext_resource path="res://KinematicBody2D.gd" type="Script" id=1]
-[ext_resource path="res://ru4.png" type="Texture" id=2]
+[ext_resource path="res://Player/KinematicBody2D.gd" type="Script" id=1]
+[ext_resource path="res://Player/ru4.png" type="Texture" id=2]
 
 [sub_resource type="RectangleShape2D" id=1]
 extents = Vector2( 17.0478, 16.9336 )
@@ -22,5 +22,3 @@ shape = SubResource( 1 )
 position = Vector2( -4.61462, 2.15674 )
 current = true
 process_mode = 0
-drag_margin_h_enabled = false
-drag_margin_v_enabled = false
