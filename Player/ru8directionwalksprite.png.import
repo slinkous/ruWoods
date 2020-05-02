@@ -2,15 +2,15 @@
 
 importer="texture"
 type="StreamTexture"
-path="res://.import/tallerIsoTiles.png-bc00a477fbbb7b2fee2b25327d860903.stex"
+path="res://.import/ru8directionwalksprite.png-73a36d79879c77488672d4f0faf4a7ee.stex"
 metadata={
 "vram_texture": false
 }
 
 [deps]
 
-source_file="res://tallerIsoTiles.png"
-dest_files=[ "res://.import/tallerIsoTiles.png-bc00a477fbbb7b2fee2b25327d860903.stex" ]
+source_file="res://Player/ru8directionwalksprite.png"
+dest_files=[ "res://.import/ru8directionwalksprite.png-73a36d79879c77488672d4f0faf4a7ee.stex" ]
 
 [params]
 
