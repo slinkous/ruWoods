@@ -1,9 +1,10 @@
-[gd_scene load_steps=5 format=2]
+[gd_scene load_steps=6 format=2]
 
 [ext_resource path="res://Tilesets/newerIsoTiles.tres" type="TileSet" id=1]
 [ext_resource path="res://autotreeline2.tres" type="TileSet" id=2]
 [ext_resource path="res://autiecottage.png" type="Texture" id=3]
 [ext_resource path="res://Player/Player.tscn" type="PackedScene" id=4]
+[ext_resource path="res://Komiku_-_13_-_Nothing_will_grow_here.ogg" type="AudioStream" id=5]
 
 [node name="Node2D" type="Node2D"]
 
@@ -12,7 +13,7 @@ margin_left = -527.0
 margin_top = -603.0
 margin_right = 761.0
 margin_bottom = 395.0
-color = Color( 0, 0, 0, 1 )
+color = Color( 0.0627451, 0.0705882, 0.109804, 1 )
 
 [node name="TileMap" type="TileMap" parent="."]
 mode = 1
@@ -47,3 +48,7 @@ texture = ExtResource( 3 )
 position = Vector2( 129, 67 )
 collision_layer = 2
 collision_mask = 2
+
+[node name="AudioStreamPlayer" type="AudioStreamPlayer" parent="."]
+stream = ExtResource( 5 )
+autoplay = true

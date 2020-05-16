@@ -1,0 +1,15 @@
+[remap]
+
+importer="ogg_vorbis"
+type="AudioStreamOGGVorbis"
+path="res://.import/Komiku_-_13_-_Nothing_will_grow_here.ogg-11a6d64761a215c0f803fe885245d4b4.oggstr"
+
+[deps]
+
+source_file="res://Komiku_-_13_-_Nothing_will_grow_here.ogg"
+dest_files=[ "res://.import/Komiku_-_13_-_Nothing_will_grow_here.ogg-11a6d64761a215c0f803fe885245d4b4.oggstr" ]
+
+[params]
+
+loop=true
+loop_offset=0
